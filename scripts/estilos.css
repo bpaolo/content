@@ -1,0 +1,527 @@
+/* CSS Document */
+
+/* DEFINIÇÕES PARA NOVA formATA��O tableLESS */
+
+/* ----------- Pagina -----------*/
+
+#divPagina{
+	width: 750px;
+	height: auto;
+	position: relative;
+	overflow: visible;
+	background-color:#ffffff;
+}
+
+/* ----------- Topo -----------*/
+
+#divTopo{
+	width: 750px;
+	height: auto;
+}
+
+#divTopo a{
+	font-size: 12px;
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#divTopo table.linhaMenu{
+	background-image: url('../imagens/bgDegrade.gif');
+	background-color: #000000;
+	width: 100%;
+	height: 20px;
+}
+
+#divTopo a:hover{
+	color:#0066FF  ;
+	font-family: sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+/* ----------- Principal -----------*/
+
+#divPrincipal{
+	width: 750px;
+	height: 430px;
+	overflow: visible;
+}
+
+/* ----------- Menu -----------*/
+#divMenu{
+	width: 200px;
+	height: auto;
+	/*background-color: #0066FF;*/
+	float: left;
+	position: absolute;
+	overflow: hidden;
+	z-index: 10;
+}
+
+#divMenu a{
+	height: auto;
+	background-color: #0066FF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #003300;
+}
+
+#divMenu table{
+	background-color: #000000;
+}
+
+#divMenu dt{
+	font-family: sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #003399;
+	background-color: #E1FFE9;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #003399;
+	border-left-color: #003399;
+}
+
+#divMenu dd{
+	font-family: sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #E1FFE9;
+}
+
+#divMenu a{
+	font-family: sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #E1FFE9;
+	text-decoration: none;
+	text-align: left;
+}
+
+#divMenu a:hover{
+	font-family: sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #E1FFE9;
+	text-decoration: none;
+	text-align: left;
+}
+
+/* =================== Login =======================*/
+#divLogin{
+	top: 2px;
+	height: auto;
+	width: 300px;
+	overflow: visible;
+	position: relative;
+	left: 110px;
+}
+
+#divLogin table{
+	border-width: 0px;
+}
+
+#divLogin td.titulo{
+	font-weight: bold;
+}
+
+#divLogin input.textForm{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #003399;
+	background-color: #FFFFFF;
+	border-width: 1px;
+	background-color:#F3F3F3;
+}
+
+#divLogin input.buttonForm{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #003399;
+	background-color: #FFFFFF;
+	border-width: 1px;
+	background-color:#F3F3F3;
+}
+
+#divLogin td{
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+/*================= Janela ========================*/
+
+#divJanela{
+	top: 5px;
+	height: auto;
+	width:750px;
+	overflow: visible;
+	position: relative;
+}
+
+#divJanela caption{
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #003399;
+	background-color: #E1FFE9;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #003399;
+	border-left-color: #003399;
+}
+
+#divJanela table{
+	border-width: 0px;
+	width: 750px;
+}
+
+#divJanela td.itemForm{
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #003399;
+}
+
+#divJanela textarea{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #003399;
+	background-color: #FFFFFF;
+	border-width: 1px;
+	background-color:#F3F3F3;
+}
+
+#divJanela input.textForm{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #003399;
+	background-color: #FFFFFF;
+	border-width: 1px;
+	background-color:#F3F3F3;
+}
+
+#divJanela input.buttonForm{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #003399;
+	background-color: #FFFFFF;
+	border-width: 1px;
+	background-color:#F3F3F3;
+}
+
+
+#divJanela select{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #003399;
+	background-color: #FFFFFF;
+	border-width: 1px;
+	background-color:#F3F3F3;
+}
+
+#divJanela th{
+	font-family: sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #D9FFEC;
+	background-color:#0066FF;
+	border: 0px solid #336600;
+}
+
+#divJanela td{
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #003399;
+	border-bottom: 1 solid #eeeeee;
+	border-right: 1 solid #eeeeee;
+}
+
+/* ----------- Conteudo -----------*/
+#divConteudo{
+	top: 5px;
+	height: auto;
+	width:750px;
+	overflow: visible;
+	position: relative;
+	background-color:#FFFFFF;
+}
+
+#divConteudo caption{
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #003399;
+	background-color: #E1FFE9;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #003399;
+	border-left-color: #003399;
+}
+
+#divConteudo table{
+	border-width: 0px;
+	width: 750px;
+}
+
+#divConteudo table.mensagem{
+	border-width: 0px;
+	width: 100%
+}
+
+#divConteudo table.segundoPlano{
+	border: 1px solid #003399;
+}
+
+#divConteudo td.itemForm{
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #003399;
+}
+
+#divConteudo td.tituloTabela{
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #003399;
+	color: #ffffff;
+}
+
+#divConteudo td.titulo{
+	background-color: #E1FFE9;
+	font-weight: bold;
+}
+
+#divConteudo td.negrito{
+	font-weight: bold;
+}
+
+#divConteudo textarea{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #003399;
+	background-color: #FFFFFF;
+	border-width: 1px;
+	background-color:#F3F3F3;
+}
+
+#divConteudo input.textForm{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #003399;
+	background-color: #FFFFFF;
+	border-width: 1px;
+	background-color:#F3F3F3;
+}
+
+#divConteudo input.buttonForm{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #003399;
+	background-color: #FFFFFF;
+	border-width: 1px;
+	background-color:#F3F3F3;
+}
+
+#divConteudo select{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #003399;
+	background-color: #FFFFFF;
+	border-width: 1px;
+	background-color:#F3F3F3;
+
+}
+
+#divConteudo th{
+	font-family: sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #D9FFEC;
+	background-color:#0066FF;
+	border: 0px solid #336600;
+}
+
+#divConteudo td{
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #003399;
+	border-bottom: 1px solid #eeeeee;
+	border-right: 1px solid #eeeeee;
+}
+
+
+#divConteudo fieldset{
+	border: 1px solid #003399;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #003399;
+	width: 730px;
+	background-color: #E1FFE9;
+}
+/*
+#divConteudo legend{
+	background-color: #ffffff;
+	border: 1px solid #003399;
+	color: #003399;
+}*/
+
+#divConteudo a:hover{
+	color: #FF9900;
+}
+
+
+#divConteudo hr{
+	border-top: 1px solid #336633;
+	border-bottom: 1px solid #ffffff;
+}
+
+/* ----------- Rodape -----------*/
+#divRodape{
+	/*width: 750px;*/
+	height: auto;
+	background-color:#FFFFFF;
+}
+
+#divRodape th{
+	background-color:#336633;
+	height: 1px
+}
+
+#divRodape hr{
+	border-top: 1px solid #336633;
+	border-bottom: 1px solid #ffffff;
+}
+
+img{
+	border-width: 0px;
+}
+
+/* ----------- Mensagem -----------*/
+#divMensagem{
+	top: 5px;	
+	position:relative;
+	width: 750px;
+	height: 50px;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	vertical-align: middle;
+}
+
+#divMensagemNormal{
+	top: 5px;	
+	position:relative;
+	width: 750px;
+	height: 50px;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid #003366;
+	vertical-align: middle;
+	color: #003366;
+	background-color: #D7F2FF;
+}
+
+#divMensagemDuvida{
+	top: 5px;	
+	position:relative;
+	width: 750px;
+	height: 50px;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid #FF0000;
+	vertical-align: middle;
+	color: #ff0000;
+	background-color: #FFeeee;
+}
+
+#divMensagemExclamacao{
+	top: 5px;	
+	position:relative;
+	width: 750px;
+	height: 50px;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid #FFCC00;
+	vertical-align: middle;
+	color: #FFCC00;
+	background-color: #FFFFCC;
+}
+
+#divImagemLogin{
+	background-image: url('../imagens/login.gif');
+	height: 350px;
+	width: 500px;
+	position:absolute;
+	top: 100px;
+	left: 250px;
+}
+
+#divImagemLogo{
+	background-image: url('../imagens/logo.gif');
+	height: 55px;
+	width: 219px;
+}
+
+#divImagemLogoEmpresa{
+	background-image: url('../imagens/logoEmpresa.gif');
+	height: 40px;
+	width: 102px;
+}
+
+#divImagemLogoPequeno{
+	background-image: url('../imagens/logoPequeno.gif');
+	height: 30px;
+	width: 119px;
+}
+
+body {
+	background-color:#F0F0F0;
+	margin-left:5px;
+	margin-top:5px;
+}
+
+/*================= Link ==============================*/
+a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #003399;
+	text-decoration: none;
+}
+
+/*================= Tipos de Fonte ==============================*/
+
+h3{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	float: left;
+	font-weight: bold;
+	color: #006600;
+	font-size: 14px;
+}
